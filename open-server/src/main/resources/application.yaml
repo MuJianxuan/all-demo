@@ -1,0 +1,5 @@
+server:
+  port: 9091
+auth:
+  client-id: 'c1'
+  client-secret: '123'

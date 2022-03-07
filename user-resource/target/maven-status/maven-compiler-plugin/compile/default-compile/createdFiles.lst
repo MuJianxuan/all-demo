@@ -1,0 +1,5 @@
+org\example\user\controller\ResourceController.class
+org\example\user\data\DataConfig$InMemoryUser.class
+org\example\user\config\ResourceServerConfig.class
+org\example\user\data\DataConfig.class
+org\example\user\UserResourceApplication.class

@@ -1,0 +1,12 @@
+org\example\auth2\controller\ResourceController.class
+org\example\auth2\config\Knife4jConfig.class
+org\example\auth2\customimpl\CustomTokenServices.class
+org\example\auth2\config\GlobalSpringSecurityConfig.class
+org\example\auth2\SsoAuth2Application.class
+org\example\auth2\config\ResourceServerConfig.class
+org\example\auth2\data\DataConfig.class
+org\example\auth2\config\WebConfig.class
+org\example\auth2\data\DataConfig$InMemoryUser.class
+org\example\auth2\customimpl\RedisAuthorizationCodeServices.class
+org\example\auth2\constant\OAuth2Constants.class
+org\example\auth2\config\GlobalAuthorizationServerConfig.class

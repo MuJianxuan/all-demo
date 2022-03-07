@@ -1,0 +1,6 @@
+org\example\fallback\TestFallbackFactory.class
+org\example\api\Test1MicroFeignClient.class
+org\example\api\TestMicroFeignClient.class
+org\example\fallback\ExtFallbackFactory.class
+org\example\fallback\GlobalFeignFallbackFactory.class
+org\example\fallback\TestFallbackFactory$1.class

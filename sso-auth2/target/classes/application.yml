@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: "Auth2 application"
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    password: '123456'
+    lettuce:
+      pool:
+        max-active: 32
+        max-wait: 300ms
+        max-idle: 16
+        min-idle: 8
+

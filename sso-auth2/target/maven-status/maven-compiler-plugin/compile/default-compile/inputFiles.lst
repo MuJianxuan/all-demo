@@ -1,0 +1,11 @@
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\config\GlobalSpringSecurityConfig.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\config\Knife4jConfig.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\customimpl\RedisAuthorizationCodeServices.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\config\ResourceServerConfig.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\config\GlobalAuthorizationServerConfig.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\config\WebConfig.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\data\DataConfig.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\customimpl\CustomTokenServices.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\SsoAuth2Application.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\constant\OAuth2Constants.java
+D:\BDevelop\AProject\example\all-demo\sso-auth2\src\main\java\org\example\auth2\controller\ResourceController.java

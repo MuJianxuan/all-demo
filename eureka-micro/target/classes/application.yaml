@@ -1,0 +1,47 @@
+server:
+  port: 9301
+spring:
+  application:
+    name: test-micro-service
+eureka:
+  instance:
+    # 实例 名称
+    #    hostname: localhost
+    # 实例的id
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    # 根据ip 上报
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 4 # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-expiration-duration-in-seconds: 12 # 发呆时间，即服务续约到期时间（缺省为90s）
+#    metadata-map:
+#      # 配置 只会连接属于同一个zone的服务实例 区分环境可用
+#      zone: test
+  client:
+    register-with-eureka: true #是否允许客户端向Eureka获取注册表信息，集群模式服务器端设置为true
+    fetch-registry: true #是否允许向Eureka Server注册信息 ，集群模式服务器端设置为true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9990/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+feign:
+  hystrix:
+    enabled: false
+  client:
+    config:
+      default:
+        connectTimeout: 20000 #单位毫秒
+        readTimeout: 20000 #单位毫秒
+  compression:
+    request:
+      enabled: true
+      mime-types: text/xml,application/xml,application/json # 配置压缩支持的MIME TYPE
+      min-request-size: 2048  # 配置压缩数据大小的下限
+    response:
+      enabled: true # 配置响应GZIP压缩

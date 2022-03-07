@@ -1,0 +1,6 @@
+org\example\open\controller\LoginCallbackController.class
+org\example\open\controller\LoginController.class
+org\example\open\config\RestConfig.class
+org\example\open\config\AuthConfig.class
+org\example\open\OpenServerApplication.class
+org\example\open\config\Knife4jConfig.class

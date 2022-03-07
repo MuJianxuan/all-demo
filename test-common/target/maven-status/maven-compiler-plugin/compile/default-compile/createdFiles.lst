@@ -1,0 +1,6 @@
+org\example\common\config\CustomizedFeignConfiguration$FeignResultDecoder.class
+org\example\common\result\B.class
+org\example\common\result\Result.class
+org\example\common\config\CustomizedFeignConfiguration.class
+org\example\common\config\CustomizedFeignConfiguration$FeignResultDecoder$1.class
+org\example\common\result\A.class
